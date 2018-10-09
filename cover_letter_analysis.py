@@ -18,7 +18,7 @@ nltk.download('stopwords')
 
 dropbox_url = input('Please provide dropbox URL: ')
 
-# Loading English stopwords and extendint it a bit
+# Loading English stopwords and extending it a bit
 
 stopwords = nltk.corpus.stopwords.words('english')
 for word in [
